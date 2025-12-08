@@ -6,7 +6,7 @@ import java.util.stream.Collectors;
 public class SortEmployee {
 
     public static void main(String[] args) {
-        Employee employee1 = new Employee(2, "anil", 10);
+        /*Employee employee1 = new Employee(2, "anil", 10);
         Employee employee2 = new Employee(10, "naidu", 20);
         Employee employee3 = new Employee(2, "avu", 5);
         Employee employee4 = new Employee(3, "abhi", 6);
@@ -16,7 +16,7 @@ public class SortEmployee {
 
         List<Employee> employees = Arrays.asList(employee1, employee2, employee3, employee4, employee5, employee6, employee7);
 
-        System.out.println(sortEmployees(employees));
+        System.out.println(sortEmployees(employees));*/
 
     }
 

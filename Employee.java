@@ -1,7 +1,11 @@
+import lombok.Builder;
+
+@Builder
 public class Employee {
     private int empId;
     private String empName;
     private int empSalary;
+    private String department;
 
     public int getEmpId() {
         return empId;
@@ -30,10 +34,11 @@ public class Employee {
     public Employee() {
     }
 
-    public Employee(int empId, String empName, int empSalary) {
+    public Employee(int empId, String empName, int empSalary, String department) {
         this.empId = empId;
         this.empName = empName;
         this.empSalary = empSalary;
+        this.department = department;
     }
 
     @Override
@@ -43,5 +48,13 @@ public class Employee {
                 ", empName='" + empName + '\'' +
                 ", empSalary=" + empSalary +
                 '}';
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
     }
 }
